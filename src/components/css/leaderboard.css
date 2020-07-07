@@ -1,0 +1,64 @@
+.MainContainerLeaderboard {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 500%;
+}
+
+.TitleBarLeaderboard {
+  padding-top: 5px;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 110px 80%;
+  border: #000000;
+  border-style: solid;
+}
+
+#title-img-l {
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.Lboard {
+  border: #000000;
+  border-style: solid;
+}
+
+.Search {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.RankTable {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+th {
+  background-color: #abacab;
+}
+
+tr:nth-child(even) {
+  background-color: #dad5d5;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}

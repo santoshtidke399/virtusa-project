@@ -1,0 +1,44 @@
+.MainContainerViewSingleCourse {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100%;
+}
+
+.TitleBarSingleCourse {
+  padding-top: 5px;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 110px 90%;
+  border: #000000;
+  border-style: solid;
+}
+
+.HeadTag{
+    border: #000000;
+    border-top: #ffffff;
+    border-style: solid;
+}
+
+#title-img-sc {
+  margin-left: 10px;
+  width: 90px;
+  height: 80px;
+}
+
+.CourseContents {
+    margin-left: 20px;
+}
+
+#SingleCourse {
+    font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+    border: #000000;
+  border-style: solid;
+}

@@ -1,0 +1,60 @@
+.MainContainerCourses {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100%;
+}
+
+.TitleBarCourses {
+  padding-top: 5px;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 110px 90%;
+  border: #000000;
+  border-style: solid;
+}
+
+
+#title-img-c {
+  margin-left: 10px;
+  width: 90px;
+  height: 80px;
+}
+
+#Courses {
+  border: #000000;
+  border-style: solid;
+}
+
+#Courses > .SubClass > .card {
+  width: 94%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border: #000000;
+  border-style: dashed;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Courses > .Sub >.eachCourse {
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#Courses > .Sub > .eachCourse > .card {
+  height: 500px;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Courses > .Sub > .eachCourse >.card > img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,58 @@
+.MainContainerAboutUs {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100%;
+}
+
+.TitleBarAboutUs {
+  padding-top: 5px;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 110px 90%;
+  border: #000000;
+  border-style: solid;
+}
+
+.AU {
+  background-color: #e0ffff;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+  border: 2px solid #000000;
+  width: 80%;
+  margin-bottom: 3%;
+}
+
+.Technology {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 2px solid #000000;
+}
+
+.Row1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+#title-img-a {
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.About {
+  border: #000000;
+  border-style: solid;
+}

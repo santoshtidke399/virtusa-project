@@ -1,0 +1,87 @@
+.HomeContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 120% 53%;
+}
+
+.MainPart {
+  background-image: url(assets/home_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+
+.MainText {
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #000000;
+  border: 2px solid #000000;
+  opacity: 1;
+}
+
+.courseButton {
+  margin-top: 10%;
+  width: 50%;
+  height: 50%;
+}
+
+.CourseHome {
+  display: grid;
+  grid-template-rows: 60% 30%;
+  justify-items: center;
+}
+
+.testButton {
+  margin-top: 15%;
+  width: 40%;
+  height: 40%;
+}
+
+.TestHome {
+  display: grid;
+  grid-template-rows: 60% 30%;
+  justify-items: center;
+}
+
+.leaderboardButton {
+  margin-top: 15%;
+  width: 40%;
+  height: 40%;
+}
+
+.LeaderboardHome {
+  display: grid;
+  grid-template-rows: 60% 30%;
+  justify-items: center;
+}
+
+.aboutButton {
+  margin-top: 15%;
+  width: 40%;
+  height: 40%;
+}
+
+.AboutHome {
+  display: grid;
+  grid-template-rows: 60% 30%;
+  justify-items: center;
+}
+.SubPart {
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  grid-gap: 0;
+}

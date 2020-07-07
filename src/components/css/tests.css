@@ -1,0 +1,59 @@
+.MainContainerTests {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100%;
+}
+
+.TitleBarTests {
+  padding-top: 5px;
+  font-family: Playfair Display SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 110px 90%;
+  border: #000000;
+  border-style: solid;
+}
+
+#title-img-t {
+  margin-left: 10px;
+  width: 60px;
+  height: 80px;
+}
+
+#Tests {
+  border: #000000;
+  border-style: solid;
+}
+
+#Tests > .SubClass > .card {
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border: #000000;
+  border-style: dashed;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Tests > .Sub > .eachTest {
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#Tests > .Sub > .eachTest > .card {
+  height: 500px;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Test > .Sub > .eachTest >.card > img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
